@@ -30,7 +30,7 @@ jobs:
     uses: script@v1
     with:
       script: |-
-          apt update -y && apt install git wget sudo -y
+          apt update -y && apt install git wget npm sudo -y
           sudo npm install -g n
           sudo n latest
           sudo npm install -g npm
